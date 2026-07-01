@@ -1,0 +1,50 @@
+=== E-COMMERCE EDA SUMMARY ===
+Analysis Date: 20523 
+
+BUSINESS METRICS:
+Total Revenue: $ 10642111 
+Total Transactions: 524878 
+Unique Customers: 4339 
+Unique Products: 3922 
+Average Order Value: $ 20.28 
+
+TOP 5 PRODUCTS BY REVENUE:
+# A tibble: 5 × 6
+  stock_code description                  total_quantity total_revenue avg_price n_transactions
+  <chr>      <chr>                                 <dbl>         <dbl>     <dbl>          <int>
+1 DOT        DOTCOM POSTAGE                          706       206249.    292.              706
+2 22423      REGENCY CAKESTAND 3 TIER              13851       174157.     14.0            2007
+3 23843      PAPER CRAFT , LITTLE BIRDIE           80995       168470.      2.08              1
+4 85123A     WHITE HANGING HEART T-LIGHT…          37580       104284.      3.12           2244
+5 47566      PARTY BUNTING                         18283        99445.      5.80           1699
+
+
+CUSTOMER SEGMENTS:
+# A tibble: 4 × 5
+  segment    n_customers avg_spent total_revenue avg_orders
+  <chr>            <int>     <dbl>         <dbl>      <dbl>
+1 High Value         868     2193.      1903348.       5.86
+2 Low Value         1302      203.       263841.       1.29
+3 Regular           1735      728.      1262287.       2.63
+4 VIP                434    16619.      7212636.      19.9 
+
+
+TOP 5 COUNTRIES BY REVENUE:
+# A tibble: 5 × 5
+  country        total_revenue n_transactions n_customers avg_transaction_value
+  <chr>                  <dbl>          <int>       <int>                 <dbl>
+1 United Kingdom      9001744.         479985        3921                  18.8
+2 Netherlands          285446.           2359           9                 121. 
+3 EIRE                 283141.           7879           4                  35.9
+4 Germany              228678.           9025          94                  25.3
+5 France               209625.           8392          88                  25.0
+
+
+SEASONAL TRENDS:
+# A tibble: 4 × 6
+  season total_revenue avg_daily_revenue n_transactions n_customers avg_basket_size
+  <chr>          <dbl>             <dbl>          <int>       <int>           <dbl>
+1 Fall        3679364.              20.9         176364        2695            10.6
+2 Spring      2366801.              20.6         114707        2036            11.0
+3 Summer      2644452.              19.8         133536        2188            10.4
+4 Winter      1951494.              19.5         100271        1828            10.7

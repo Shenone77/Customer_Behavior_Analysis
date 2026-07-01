@@ -1,0 +1,27 @@
+=== DATA CLEANING SUMMARY ===
+Date: 20523 
+
+Original dataset rows: 541909 
+Cleaned dataset rows: 524878 
+Return transactions removed: 10624 
+Missing CustomerID replaced: 132186 
+# A tibble: 17 × 3
+   column       missing_count missing_pct
+   <chr>                <int>       <dbl>
+ 1 invoice_no               0        0   
+ 2 stock_code               0        0   
+ 3 description           1454        0.27
+ 4 quantity                 0        0   
+ 5 invoice_date             0        0   
+ 6 unit_price               0        0   
+ 7 customer_id         135080       24.9 
+ 8 country                  0        0   
+ 9 revenue                  0        0   
+10 year                     0        0   
+11 month                    0        0   
+12 month_name               0        0   
+13 day                      0        0   
+14 weekday                  0        0   
+15 hour                     0        0   
+16 quarter                  0        0   
+17 season                   0        0   

@@ -1,0 +1,24 @@
+=== E-COMMERCE DATA INITIAL EXPLORATION ===
+Date: 20523 
+
+Dataset Dimensions:
+Rows: 541909 
+Columns: 8 
+
+Column Names:
+[1] "InvoiceNo"   "StockCode"   "Description" "Quantity"    "InvoiceDate" "UnitPrice"  
+[7] "CustomerID"  "Country"    
+
+
+Data Types:
+  InvoiceNo   StockCode Description    Quantity InvoiceDate   UnitPrice  CustomerID 
+"character" "character" "character"   "numeric" "character"   "numeric"   "numeric" 
+    Country 
+"character" 
+
+
+Missing Values:
+  InvoiceNo   StockCode Description    Quantity InvoiceDate   UnitPrice  CustomerID 
+          0           0        1454           0           0           0      135080 
+    Country 
+          0 
